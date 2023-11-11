@@ -1,0 +1,43 @@
+header{
+    background: url() no-repeat center; background-size: cover;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(255, 0, 0, 0.218)), url('https://scontent.fcgh9-1.fna.fbcdn.net/v/t39.30808-6/354466293_6298312703615177_3586735108893670849_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGuy94ojnjy4R0ZzoLOnxpvCXdV2mUFNPQJd1XaZQU09BDSFvpwjyXKdyx2wdcD4MkrFRj20MRfBigdSPNrZWoB&_nc_ohc=9SK7LJq9scsAX_p4Ltm&_nc_oc=AQmE7KS1DS7pwN-0aZ_x00PzZ9aPyrTdBTWCumxInuW7bobF1KffBbm92_eWypGITAeb8lsmu7E549o-KsHBqqst&_nc_ht=scontent.fcgh9-1.fna&oh=00_AfBTQeVdsP6IWvCMEa7sgLWgvgFEjlKAYcg8H-Q6ZSqocA&oe=65431351');
+
+        background-size: cover;
+        text-align: center;
+        height: 80vh;
+        padding: 0rem 18rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-attachment: fixed;
+        font-family: Fonte do corpo;
+    }
+
+header h1{
+    color: #ffee00;
+    padding: 27 2% 0;
+    }
+
+header .botao{
+        color:#ffee00;
+        background: #f700ff;
+        padding: 1rem 1rem 1rem ;
+        font-size: .9rem;
+        border-radius: 5px;
+        transform: skew(-15deg);              
+    }
+
+.botao_destaque{
+        background: #ffee00;
+        color: #ea00ffad;
+        padding: 0.6rem 1.4rem;
+        font-size: .9rem;
+        border-radius: 5px;
+        transform: skew(-12deg);
+}
+
+#paragrafo{
+    padding: 3rem 18rem 3rem;
+}

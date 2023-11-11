@@ -1,0 +1,54 @@
+nav{
+    background-color: rgb(255, 0, 242);
+    align-items: center;
+    height: 17vh;
+    margin-bottom: 0%;
+}
+
+
+#logo{
+    width: 5.62rem;
+    height: 5.62rem;
+    margin-left: 2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ff000091;
+    top: 50%;
+    left: 50%;
+}
+
+
+#logo img{
+    width: inherit;
+    height: 100%;
+}
+
+    nav ul{
+        display: flex;
+        width: 43%;
+    }
+
+    nav ul li{
+       padding: 0rem 17% 2%;
+    }
+
+    
+    nav ul li a{
+        color: #fbff00;
+        text-shadow: 3px 2px #00000086;
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: Fonte la em cima;
+    }
+    
+
+    nav ul li a:hover{
+        color: rgb(43, 255, 0);
+        border-bottom: 3px solid #2549e7;
+        border-radius: 20%;
+    }
+
+    @font-face {
+        font-family: Fonte la em cima;
+        src: url(KGCorneroftheSky.ttf);
+    }

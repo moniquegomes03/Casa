@@ -1,0 +1,79 @@
+@import url('sobre.css');
+@import url('servicos.css');
+@import url('nav.css');
+@import url('header.css');
+@import url('galeria.css');
+@import url('footer.css');
+@import url('apadrinhamento.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Fonte do corpo;
+}
+
+
+body{
+    font-family: Fonte do corpo;
+    color: #ffd900;
+    /* background-color: rgb(83, 81, 81); */
+    overflow-x: hidden;
+}
+
+
+h1,h2,h3{
+    font-family: ;
+    color: #ff00d4;
+    text-align: center;
+    padding-top: 4%;
+}
+
+
+p{
+    color: #ffffff;
+    padding: 2%;
+    text-indent: 1.8rem;
+}
+
+#paragrafo{
+    padding-bottom: 6%;
+}
+
+ @media (max-width:600px){
+    	
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conteudos_servicos div{
+        width: 95%;
+    }
+
+    #fotos div{
+        height: auto;
+    }
+
+    #fotos div img{
+        width: 90%;
+        height: 50vh;
+        padding: 4% 2%;
+    }
+
+    #horizontal{
+        flex-direction: column;
+    }
+
+    .contatos_card{
+        margin: 2% auto;
+    }
+
+}
+
+@font-face {
+    font-family: Fonte do corpo;
+    src: url(KGCorneroftheSky.ttf);
+}
